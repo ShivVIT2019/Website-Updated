@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
+
+/* General styles for body and html */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  background: white;
+  box-sizing: border-box;
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+/* Custom Navbar */
+.navbar-custom {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #ff7e5f, #feb47b, #86a8e7, #91eae4); /* Multicolor gradient */
+  color: white;
+  position: fixed;
+  width: 50%;
+  z-index: 1000;
+}
+
+/* Name section */
+.name-section {
+  width: 100%;
+  background-color: #ff7e5f; /* Light background for visibility */
+  padding: 50px 0; /* Increased padding to move it lower */
+  text-align: center;
+  margin-top: 40px; /* Add margin to push it down */
+}
+
+.name-content {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: white;
+}
+
+/* Other styles */
+body {
+  padding-top: 150px; /* Adjust this value to make space for the navbar and name section */
+}
+
+.image-space {
+  position: relative;
+}
+
+.float-logos img {
+  width: 80px;
+  height: 80px;
+  margin: 20px;
+}
+
+.quote-text {
+  font-size: 2rem;
+  color: black;
+  text-align: center;
+}
+
+/* Social icons */
+.social a {
+  font-size: 3em;
+  padding: 1.5rem;
+}
+
+.fa-twitter {
+  color: #1da1f2; /* Twitter blue */
+}
+
+.fa-github {
+  color: black; /* GitHub color */
+}
+
+.fa-linkedin-in {
+  color: #0072b1; /* LinkedIn blue */
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 768px) {
+  .name-content {
+    font-size: 1.5rem;
+  }
+}
